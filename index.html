@@ -92,20 +92,17 @@
        </div>
 </body>
 <script>
-//declaring variables 
     let kiloinput = document.getElementById("kilograms");
     let poundinput = document.getElementById("pounds");
     let poun = document.getElementById("poun");
     let kilo = document.getElementById("kilo");
-// carryong out the process of converting weights on user's click
+
     function convertK(){
         let x = kiloinput.value*2.20462262;
-        // final output of "pounds"
         poun.innerHTML = "Pounds - " + x;
     }
     function convertP(){
         let y = poundinput.value * 0.45359237;
-        final output o "kilograms"
         kilo.innerHTML = "Kilograms - " + y;
     }
 </script>
